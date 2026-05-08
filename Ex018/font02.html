@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: Love;
+            src: url(fonts/Love\ Language\ Free.otf) format('opentype'), url('Love Language Free.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            -Tipos de formato 
+            -Opentype: otf
+            -truetype: ttf
+            -embedded-opentype
+            -truetype-att (Apple advanced typography)
+            -svg
+            */
+        }
+        body {
+            font-family: 'Love', Helvetica, sans-serif;
+            font-size: 30px;
+        }
+
+        h1{
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Eu estou fazendo um site em HTML e CSS com o gustavo guanabara</p>
+</body>
+</html>
