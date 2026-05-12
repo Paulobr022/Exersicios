@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-spacing: 0px;
+            position: relative;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        thead > tr > th{
+            background-color: lightcoral;
+            top: -1px;
+            position: sticky;
+        }
+
+        th {
+            border: 1px, solid gray;
+            padding: 10px;
+            background-color:   lightblue ;
+            
+        }
+        td:nth-child(odd){
+            border: 1px, solid gray;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+        td:nth-child(even){
+            border: 1px, solid gray;
+            padding: 10px;
+            background-color: lightcyan;
+        }
+        .gp {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th class="gp" scope="col">Grupos</th>
+                <th class="gp" scope="col">Nomes</th>
+                <th colspan="3" class="gp" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>BigHero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocaveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>Star War 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fugiat qui animi laudantium iure debitis minima omnis eveniet consequuntur culpa a, rem dolores beatae soluta rerum nihil sint repellendus inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora minima aspernatur totam, laboriosam beatae labore ipsa autem eius molestiae ducimus, voluptates est sint eveniet dolorum, omnis temporibus non magnam quas! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, magnam deserunt reprehenderit eaque inventore ab, explicabo exercitationem rem aliquam perferendis dolores adipisci repudiandae. Quod saepe ea optio earum eveniet! A? </p>
+
+</body>
+</html>
