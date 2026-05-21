@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burger" class="material-icons" onclick="clickmenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li> <a href="#">Opção 1</a></li>
+                <li> <a href="#">Opção 2</a></li>
+                <li> <a href="#">Opção 3</a></li>
+                <li> <a href="#">Opção 4</a></li>
+                <li> <a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <nav>
+        <article>
+            <h2>Testando media querie</h2>
+            <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias provident earum expedita corrupti
+                    sapiente consequuntur illo? Maiores, saepe debitis nesciunt voluptate, eius molestias non distinctio
+                    similique fuga ipsum corrupti delectus.</span><span>Beatae minus culpa porro ea nobis aliquid
+                    dolorem eveniet voluptatibus. Officia repellendus amet eaque, nulla nostrum aliquam commodi dicta
+                    fuga quidem eligendi earum aperiam vero nemo culpa totam? Exercitationem, amet?</span></p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis iusto perspiciatis in
+                    corrupti quos, at fugit a quis cumque tempore ex nostrum atque adipisci, nobis, quibusdam pariatur
+                    suscipit repudiandae.</span><span>Quis consectetur adipisci, cum, consequuntur aliquam in laudantium
+                    autem error, molestias minima numquam aperiam. Facere mollitia laudantium debitis quaerat laborum
+                    praesentium saepe amet eveniet minus. Ad, at? Error, deserunt dolore.</span></p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat porro iusto quae a ut quos minus!
+                    Dolorem blanditiis fugit incidunt. Dignissimos quas odio nesciunt maxime saepe tenetur, placeat ex.
+                    Impedit?</span><span>Ducimus accusantium reiciendis iure obcaecati sint similique voluptate quasi,
+                    saepe rem sit. Veritatis reiciendis totam adipisci accusantium sunt harum suscipit tenetur incidunt
+                    possimus! Ex labore repellat fugit. Doloribus, ducimus atque.</span></p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore rerum quo tempora nemo ea tenetur
+                    quam harum nam eius commodi. Iusto accusamus deleniti, saepe magnam quae provident autem
+                    exercitationem repellendus?</span><span>Laborum nihil voluptatem consequatur. Adipisci aliquam et,
+                    non minus accusamus dolorem dolorum exercitationem assumenda repudiandae, repellendus vel soluta
+                    illum illo veritatis beatae quo nobis ipsum impedit qui aspernatur ipsa. Quas!</span></p>
+        </article>
+    </nav>
+    <script>
+
+        document.getElementById('burger').addEventListener('click', function () {
+            const itens = document.getElementById('itens');
+            itens.style.display = itens.style.display === 'none' ? 'block' : 'none';
+        });
+
+    </script>
+</body>
+
+</html>
