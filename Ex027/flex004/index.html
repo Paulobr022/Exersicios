@@ -6,17 +6,21 @@
     <title>Felxible box</title>
     <style>
         div.container {
-            background-color: lightsalmon;
-
+            background-color: lightslategrey;
             display: flex;
-            flex-direction: row;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 10px;
         }
 
         div.item {
-            background-color: lightblue;
+            background-color: rgb(127, 181, 199);
             border: 1px solid black;
             text-align: center;
-            padding: 10px;
+            flex: auto;
+            border-radius: 10px;
+
         }
     </style>
 </head>
